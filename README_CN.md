@@ -8,6 +8,8 @@
 [![](https://img.shields.io/github/issues/ltyzzzxxx/article_crawler)](https://github.com/ltyzzzxxx/article_crawler/issues)
 [![](https://img.shields.io/badge/license-MIT%20-yellow.svg)](https://github.com/ltyzzzxxx/article_crawler/issues)
 
+[English Doc](./README_EN.md) | [中文文档](./README_CN.md)
+
 ## ✨ 简介
 
 Article Crawler 是一个用于从指定网站中爬取文章并以 Markdown 格式存储于本地的 Python 包。

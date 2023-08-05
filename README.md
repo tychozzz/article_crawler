@@ -8,6 +8,8 @@
 [![](https://img.shields.io/github/issues/ltyzzzxxx/article_crawler)](https://github.com/ltyzzzxxx/article_crawler/issues)
 [![](https://img.shields.io/badge/license-MIT%20-yellow.svg)](https://github.com/ltyzzzxxx/article_crawler/issues)
 
+[English Doc](./README_EN.md) | [中文文档](./README_CN.md)
+
 ## ✨ Introduction
 
 Article Crawler is a package used to crawl articles with Markdown format from a specific webpage and store them locally in HTML / Markdown formats.
