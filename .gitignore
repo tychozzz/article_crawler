@@ -1,0 +1,6 @@
+.idea/
+article_crawler.egg-info/
+__pycache__/
+build/
+dist/
+venv/
