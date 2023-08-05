@@ -1,5 +1,13 @@
 # Article Crawler
 
+[![PyPI Latest Release](https://img.shields.io/pypi/v/article-crawler.svg)](https://pypi.org/project/article-crawler/)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/article-crawler?label=PyPI%20downloads)](https://pypi.org/project/article-crawler/)
+[![](https://img.shields.io/github/v/release/ltyzzzxxx/article_crawler?display_name=tag)]()
+[![](https://img.shields.io/github/stars/ltyzzzxxx/article_crawler)](https://github.com/ltyzzzxxx/article_crawler)
+[![](https://img.shields.io/github/forks/ltyzzzxxx/article_crawler)](https://github.com/ltyzzzxxx/article_crawler)
+[![](https://img.shields.io/github/issues/ltyzzzxxx/article_crawler)](https://github.com/ltyzzzxxx/article_crawler/issues)
+[![](https://img.shields.io/badge/license-MIT%20-yellow.svg)](https://github.com/ltyzzzxxx/article_crawler/issues)
+
 ## ✨ Introduction
 
 Article Crawler is a package used to crawl articles with Markdown format from a specific webpage and store them locally in HTML / Markdown formats.
@@ -9,7 +17,7 @@ Article Crawler is a package used to crawl articles with Markdown format from a 
 1. Install through `pip`
 
     ```python
-    pip install article_crawler
+    pip install article-crawler
     ```
 2. Usage
 
