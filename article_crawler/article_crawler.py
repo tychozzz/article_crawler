@@ -87,12 +87,3 @@ class ArticleCrawler():
         response = self.send_request(self.url)
         if response:
             self.parse_detail(response)
-
-
-if __name__ == '__main__':
-    csdn = ArticleCrawler(
-        url='https://ltyzzzxxx.github.io/2023/06/23/%E5%85%AB%E8%82%A1%E6%96%87%E5%A4%8D%E4%B9%A0%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/',
-        tag="div",
-        class_='markdown-body',
-        output_folder='/Users/lty/Downloads/output_md')
-    csdn.start()

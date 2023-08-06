@@ -30,10 +30,10 @@ def main():
         parser.error("output folder must be specified.")
     if type == "" and website_tag == "" and class_ == "" and id == "":
         parser.error("'type', 'website_tag', 'class_', 'id' cannot be empty at the same time.")
-    if type not in ["csdn", "juejin", "zhihu", "jianshu"]:
-        parser.error(
-            "The current article type is not supported, you need to specify 'class_' or 'id' to locate the position of the article.")
     if type != '':
+        if type not in ["csdn", "juejin", "zhihu", "jianshu"]:
+            parser.error(
+                "The current article type is not supported, you need to specify 'class_' or 'id' to locate the position of the article.")
         crawler = class_dic[type](url=url, output_folder=output_folder)
     else:
         crawler = ArticleCrawler(url=url, output_folder=output_folder, tag=website_tag, class_=class_, id=id)
