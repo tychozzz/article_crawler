@@ -1,0 +1,5 @@
+beautifulsoup4==4.12.2
+bs4==0.0.1
+html2text==2020.1.16
+parsel==1.8.1
+requests==2.31.0
