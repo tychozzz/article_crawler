@@ -5,7 +5,7 @@ from article_crawler.article_crawler import ArticleCrawler
 
 
 class CSDNCrawler(ArticleCrawler):
-    def __init__(self, url, output_folder, tag='div', class_='markdown_views', id='content_views'):
+    def __init__(self, url, output_folder, tag='div', class_='', id='content_views'):
         super().__init__(url=url, output_folder=output_folder, tag=tag, class_=class_, id=id)
 
     def parse_detail(self, response):
